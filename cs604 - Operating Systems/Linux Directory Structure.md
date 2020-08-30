@@ -21,9 +21,10 @@ image .
 
 ## **`/etc`**
  holds **system configuration files**. 
- **Most files in this directory are text** and can be edited with your favorite text editor. **`/etc/inittab`** is a text file that details what processes are started at system boot up and during regular operation. 
-**`/etc/fstab`** identifies file systems and their mount points (like floppy, CD-ROM, and hard disk drives). 
-**`/etc/passwd`** is where users are defined
+ **Most files in this directory are text** and can be edited with your favorite text editor. 
+- **`/etc/inittab`** is a text file that details what processes are started at system boot up and during regular operation. 
+- **`/etc/fstab`** identifies file systems and their mount points (like floppy, CD-ROM, and hard disk drives). 
+- **`/etc/passwd`** is where users are defined
 
 
 ## **`/home`**
@@ -63,8 +64,7 @@ The home directory for the superuser (root).  `/` and `/root` are not same.
 ## **`/sbin`**
 
 **System administration utilities**  (halt, ifconfig, fdisk, etc.) are
-stored in this directory. `/usr/sbin`, and `/usr/local/sbin` are other directories  
-that are used for this purpose as well. `/sbin/init.d` are scripts used by  
+stored in this directory. `/usr/sbin`, and `/usr/local/sbin` are other directories that are used for this purpose as well. `/sbin/init.d` are scripts used by 
 `/sbin/init` to start the system.
 
 ## **`/tmp`**
