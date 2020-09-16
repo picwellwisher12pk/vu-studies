@@ -1,4 +1,4 @@
-## Linux Directory Structure
+# Linux Directory Structure
 
 ## **`/`**
 
@@ -20,16 +20,17 @@ image .
  holds **devices**.  **Remember that Linux treats devices like files** and you can read and write to them as if they were. Included in this directory is the notorious /dev/null, which is most useful for deleting outputs of various, functions and programs.
 
 ## **`/etc`**
+
  holds **system configuration files**. 
  **Most files in this directory are text** and can be edited with your favorite text editor. 
+
 - **`/etc/inittab`** is a text file that details what processes are started at system boot up and during regular operation. 
 - **`/etc/fstab`** identifies file systems and their mount points (like floppy, CD-ROM, and hard disk drives). 
 - **`/etc/passwd`** is where users are defined
 
-
 ## **`/home`**
+
  This is where every user on a Linux system will have a **personal directory**. A quick way to return to your home directory is by entering the "cd" command. Your current working directory will be changed to your home directory.
- 
 
 ## **`/lib`**
 
